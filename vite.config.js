@@ -8,7 +8,7 @@ import path from "path"; // https use (打包請關閉)
 
 export default defineConfig({
   plugins: [vue()],
-  base: "/ig-live-comment/", // github page use
+  // base: "/ig-live-comment/", // github page use
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url))
